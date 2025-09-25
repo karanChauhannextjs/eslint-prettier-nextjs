@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true, // Fixes ESLint & Prettier issues on save
+    "source.fixAll.eslint": true // Specifically run ESLint fixes
+  },
+  "eslint.validate": [
+    {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true, // Fixes ESLint & Prettier issues on save
+        "source.fixAll.eslint": true // Specifically run ESLint fixes
+      },
+      "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+      ],
+      "prettier.requireConfig": true, // Only use Prettier if config exists
+      "files.autoSave": "onFocusChange" // Optional: autosave files when you switch focus
+    },
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.requireConfig": true, // Only use Prettier if config exists
+  "files.autoSave": "onFocusChange" // Optional: autosave files when you switch focus
+}

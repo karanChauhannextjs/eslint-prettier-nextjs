@@ -1,6 +1,20 @@
 import Image from "next/image";
 
 export default function Home() {
+
+  // interface user {
+  //   key: number
+  // }
+
+  // console.log("wqddq")
+
+  //   const help = () => {
+
+  //   }
+
+
+
+  // help()
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
@@ -24,6 +38,9 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
+        {/* <img alt="nothing">
+
+        </img> */}
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
@@ -90,10 +107,10 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
             alt="Globe icon"
-            width={16}
             height={16}
+            src="/globe.svg"
+            width={16}
           />
           Go to nextjs.org →
         </a>
